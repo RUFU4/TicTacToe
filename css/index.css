@@ -1,0 +1,33 @@
+@import url(/node_modules/animate.css/animate.css);
+
+.page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 95vh;
+}
+
+#page-logo {
+  color: white;
+  font-size: 10vh;
+  font-family: "Oswald", sans-serif;
+}
+
+#page-button {
+  background-color: rgb(255, 255, 255);
+  border: none;
+  border-radius: 30px;
+  width: 20vh;
+  font-size: 3vmin;
+  transition: linear 0.2s;
+}
+
+#page-button:hover {
+  box-shadow: 0 0 5vh rgba(255, 255, 255, 0.869);
+}
+
+body {
+  box-sizing: border-box;
+  background-color: rgb(184, 219, 240);
+}
