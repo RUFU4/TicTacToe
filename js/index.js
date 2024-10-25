@@ -114,7 +114,7 @@ let gameArea = document.getElementById('gameArea')
                 alert('Победили крестики')
             } else alert('Победили нолики');
         } else if(outerCells.every((outerCell) => outerCell.querySelector('.winnedCell') !== null)){
-            alert('ничья ёпта') ///
+            alert('Победителей нет..') ///
         }
     }
 
