@@ -7,7 +7,7 @@ const WIN_POSITIONS = [0b111000000,
     0b100010001,
     0b001010100
 ];
-const PLAYERSPNG = `'url("../img/circle.png")','url("../img/cross.png")'`;
+const PLAYERSPNG = `url("../img/circle.png"),url("../img/cross.png")`;
 
 try{
     localStorage.setItem('winpos', WIN_POSITIONS);

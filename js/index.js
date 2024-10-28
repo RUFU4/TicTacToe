@@ -125,6 +125,7 @@
         let innercells = Array.from(document.querySelectorAll('.innerCell'));
         if (event.target.classList.contains("innerCell") && event.target.style.backgroundImage === "") {
             if (innercells.every((cell) => cell.style.backgroundImage === "")) {
+                console.log(localStorage.getItem('playerObj').split(',')[[playersObjIdx]])
                 event.target.style.backgroundImage = localStorage.getItem('playerObj').split(',')[[playersObjIdx]]; ///
             }
             else if (event.target.closest('.outerCell') === blankCell) {
